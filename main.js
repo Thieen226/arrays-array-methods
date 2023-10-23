@@ -5,3 +5,6 @@ function push(){
         console.log(i);
     }
 }
+
+
+names.push("Haha");
