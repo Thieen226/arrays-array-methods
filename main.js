@@ -13,5 +13,5 @@ function pop(item){
     names.remove(item);
 }
 
-pop("Thien");
+pop("Dee");
 console.log(names);
