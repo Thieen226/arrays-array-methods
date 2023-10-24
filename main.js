@@ -1,8 +1,10 @@
-var names = ["Thien", "James", "Hannah", "Katy", "Bang"];
+var names = ["Thien", "Kim", "Katy", "Hannah"];
 
-//allowing to add one or more elements into names
-function push(names, ...elements){
-    for(let i = 0; i < names.length; i++){
-        console.log(i);
-    }
+function push(item){
+    names[names.length] = item;
 }
+
+push("Dee");
+console.log(names);
+
+
