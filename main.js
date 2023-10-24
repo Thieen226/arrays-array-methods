@@ -1,7 +1,7 @@
-var names = ["Thien", "James", "Hannah", "Katy", "Bang"];
+var names = ["Thien", "Kim", "Hannah", "Katy", "Bang"];
 
 function push(){
     for(let i = 0; i < names.length; i++){
-        console.log(i);
+        console.log(names[i]);
     }
 }
