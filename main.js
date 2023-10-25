@@ -28,5 +28,5 @@ console.log(names);
 
 // creating toString function which will make the variable in the array to string
 function toString(){
-
+    
 }
