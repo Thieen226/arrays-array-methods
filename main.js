@@ -26,8 +26,11 @@ pop();
 console.log(numbers); 
 
 
-var nums = ["2", "4", "6", "8"];
-// creating toString function which will make the variable in the array to string
+var nums = [2 , 4, 6, 8];
+//creating toString function which will make the variable in the array to string
 function toString(){
-    
+   numsString = "" + nums;
 }
+toString();
+console.log(numsString)
+
