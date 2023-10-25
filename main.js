@@ -4,14 +4,13 @@ function push(item){
     names[names.length] = item;
 }
 
-push("Dee");
+push("Duyen");
 console.log(names);
 
 
-function pop(item){
-    names[names.length] = item;
-    names.remove(item);
+function pop(){
+    names[names.length -1];
 }
 
-pop("Dee");
-console.log(names);
+pop();
+console.log(names);     
