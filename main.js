@@ -36,11 +36,14 @@ console.log(numsString);
 
 var countries = ["Japan", "Vietnam", "U.S.", "U.K."];
 function join(){
-    
+
 }
 
 var fruits = ["Kiwi", "Orange", "Apple", "Grape,"];
 var drinks = ["Pepsi", "Juice", "Coffee", "Water"];
+/*
+creating a concat function 
+*/
 function concat(){
     fruitsString = "" + fruits;
     drinksString = "" + drinks;
