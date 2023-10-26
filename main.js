@@ -26,38 +26,47 @@ pop();
 console.log(numbers); 
 
 
-var nums = [2 , 4, 6, 8];
+var nums = [2, 4, 6, 8];
 //creating toString function which will make the variable in the array to string
 function toString(){
     let numsString = "";
     for(let i = 0; i < nums.length; i++){
         if(i === 0){
-            
+            numsString += nums[i];
         }
         else{
             numsString += ", " + nums[i];
         }
-
     }
-
     console.log(numsString);
 }
 toString();
 
 var countries = ["Japan", "Vietnam", "U.S.", "U.K."];
 function join(item){
-   
+   let countriesString = "";
+   for (let i = 0; i < countries.length; i++){
+        if(i === 0){
+            countriesString += countries[i];
+        }
+        else{
+            countriesString += item + countries[i]; 
+        }
+   }
+   console.log(countriesString);
 }
+join("/");
 
-var fruits = ["Kiwi", "Orange", "Apple", "Grape,"];
-var drinks = ["Pepsi", "Juice", "Coffee", "Water"];
+var array1 = ["Kiwi", "Orange", "Apple", "Grape,"];
+var array2 = ["Pepsi", "Juice", "Coffee", "Water"];
 /*
 creating a concat function 
 */
-function concat(){
-    fruitsString = "" + fruits;
-    drinksString = "" + drinks;
-    customConcat = fruitsString + drinksString;
+function concat(item){
+    let concatArray = [];
+    for (let i = 0; i < drinksString.length; i++){
+
+    }
 }
 concat();
 console.log(customConcat);
