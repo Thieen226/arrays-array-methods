@@ -32,5 +32,19 @@ function toString(){
    numsString = "" + nums;
 }
 toString();
-console.log(numsString)
+console.log(numsString);
 
+var countries = ["Japan", "Vietnam", "U.S.", "U.K."];
+function join(){
+    
+}
+
+var fruits = ["Kiwi", "Orange", "Apple", "Grape,"];
+var drinks = ["Pepsi", "Juice", "Coffee", "Water"];
+function concat(){
+    fruitsString = "" + fruits;
+    drinksString = "" + drinks;
+    customConcat = fruitsString + drinksString;
+}
+concat();
+console.log(customConcat);
