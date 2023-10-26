@@ -29,14 +29,24 @@ console.log(numbers);
 var nums = [2 , 4, 6, 8];
 //creating toString function which will make the variable in the array to string
 function toString(){
-   numsString = "" + nums;
+    let numsString = "";
+    for(let i = 0; i < nums.length; i++){
+        if(i === 0){
+            
+        }
+        else{
+            numsString += ", " + nums[i];
+        }
+
+    }
+
+    console.log(numsString);
 }
 toString();
-console.log(numsString);
 
 var countries = ["Japan", "Vietnam", "U.S.", "U.K."];
-function join(){
-
+function join(item){
+   
 }
 
 var fruits = ["Kiwi", "Orange", "Apple", "Grape,"];
