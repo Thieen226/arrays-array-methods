@@ -70,13 +70,13 @@ var array2 = ["Pepsi", "Juice", "Coffee", "Water"];
 let array3 = []; //array3 is new array that will store both array1 and array2
 function concat(){
     //using for loop to push array1 into array3
-    for(let i = 0; i < array1.length, array2.length; i++){
-        array3[array3.length] = array1[i] , array2[i];
+    for(let i = 0; i < array1.length; i++){
+        array3[array3.length] = array1[i];
     }
-//     //using for loop to push array2 into array3 after array1
-//     for(let i =0; i < array2.length; i++){
-//         array3[array3.length] = array2[i];
-//     }
+    //using for loop to push array2 into array3 after array1
+    for(let i =0; i < array2.length; i++){
+        array3[array3.length] = array2[i];
+    }
 }
 concat();
 console.log(array3);
