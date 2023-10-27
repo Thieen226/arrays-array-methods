@@ -29,11 +29,15 @@ console.log(numbers);
 var nums = [2, 4, 6, 8];
 //creating toString function which will make the variable in the array to string
 function toString(){
+    //creating a string variable to making the array into string
     let numsString = "";
     for(let i = 0; i < nums.length; i++){
+        //if the index is 0 then add string variable and the nums array
+        //nums[i] means to get all the index of the array by using for loop
         if(i === 0){
             numsString += nums[i];
         }
+        //if the index is different than 0 then add ", " between variables in the array
         else{
             numsString += ", " + nums[i];
         }
@@ -46,9 +50,13 @@ var countries = ["Japan", "Vietnam", "U.S.", "U.K."];
 function join(item){
    let countriesString = "";
    for (let i = 0; i < countries.length; i++){
+        //if the index is 0 then add string variable and the countries array
+        //countries[i] means to get all the index of the array by using for loop
         if(i === 0){
             countriesString += countries[i];
         }
+        //if the index is different than 0 then add "item" between variables in the array
+        //item is what you want to seperate between variables
         else{
             countriesString += item + countries[i]; 
         }
@@ -60,8 +68,7 @@ join("/");
 var array1 = ["Kiwi", "Orange", "Apple", "Grape"];
 var array2 = ["Pepsi", "Juice", "Coffee", "Water"];
 function concat(){;
-    let array3 = [];
-
+    array3 = [array1 + array2];
 }
 concat();
 console.log(array3);
