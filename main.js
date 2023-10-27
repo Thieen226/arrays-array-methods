@@ -57,16 +57,14 @@ function join(item){
 }
 join("/");
 
-var array1 = ["Kiwi", "Orange", "Apple", "Grape,"];
+var array1 = ["Kiwi", "Orange", "Apple", "Grape"];
 var array2 = ["Pepsi", "Juice", "Coffee", "Water"];
-/*
-creating a concat function 
-*/
-function concat(item){
-    let concatArray = [];
-    for (let i = 0; i < drinksString.length; i++){
+function concat(){;
+    let array3 = [];
 
-    }
 }
 concat();
-console.log(customConcat);
+console.log(array3);
+
+
+
